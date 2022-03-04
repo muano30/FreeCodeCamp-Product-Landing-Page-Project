@@ -1,1 +1,1 @@
-# FreeCodeCamp-Project-Build-a-Product-Landing-Page-
+# FreeCodeCamp-Product-Landing-Page-Project
