@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <title>Product Landing Page</title>
+</head>
+
+<body>
+    <header id="header">
+        <img id="header-img" src="./image/images.png" atl="company-logo" title="compnay image">
+
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#i-phones-models">I Phone models</a></li>
+                <li><a class="nav-link" href="#pricing">Company Product Price</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <h2>Used i phones</h2>
+        <div class="email-input">
+            <input name="email" type="email" id="email" placeholder="Enter your email"
+                pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required>
+        </div>
+        <div class="button">
+            <input type="submit" id="submit" value="GET STARTED">
+        </div>
+    </form>
+
+    <section id="features">
+        <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+            <div class="desc">
+                <h2>Premium Materials</h2>
+                <p>
+                    The top four materials used in an iPhone 6 16 GB variant are Aluminium (31.1gm),
+                    Carbon (19.9gm), Oxygen(18.7gm) and Iron(18.6gm). Besides these, the phone uses
+                    Silicon, Copper, Cobalt, Hydrogen, Chrome and Nickel in varying quantities.This
+                    will increase the longevity of your purchase.
+                </p>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+            <div class="desc">
+                <h2>Fast Shipping</h2>
+                <p>
+                    We make sure you recieve your i phone within 48hours of your purchase.
+                    We also provide free returns if you are not satisfied.
+                </p>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="icon">
+                <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+            </div>
+            <div class="desc">
+                <h2>Quality Assurance</h2>
+                <p>
+                    For every purchase you make, we will ensure there are no damages or
+                    faults.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="i-phones-models">
+
+        <video id="video" controls>
+            <source src="./video/y2mate.com - History of the iPhone_1080p.mp4" type="video/mp4">
+            <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg>
+
+        </video>
+    </section>
+
+    <section id="pricing">
+        <div class="product" id="i-phone 6">
+            <div class="level">iphone 6</div>
+            <h2>R5000</h2>
+            <ol>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum dolor.</li>
+                <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">Select</button>
+        </div>
+        <div class="product" id="i-phone 6s">
+            <div class="level">iphone 6s</div>
+            <h2>R6000</h2>
+            <ol>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum dolor.</li>
+                <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">Select</button>
+        </div>
+        <div class="product" id="i-phone-7">
+            <div class="level">iphone 7</div>
+            <h2>R8000</h2>
+            <ol>
+                <li>Different model</li>
+                <li>Lorem ispum</li>
+                <li>Lorem ipsum dolor.</li>
+                <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">Select</button>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2021, Used iphones</span>
+    </footer>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+
+</html>
